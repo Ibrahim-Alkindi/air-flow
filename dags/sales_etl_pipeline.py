@@ -28,7 +28,7 @@ def create_table():
         connection = pymysql.connect(
             host='host.docker.internal',
             user='root',
-            password='Ibrahim2001@',
+            password='',
             database='mydatabase'
         )
         
@@ -117,7 +117,7 @@ def load():
         connection = pymysql.connect(
             host='host.docker.internal',
             user='root',
-            password='Ibrahim2001@',
+            password='',
             database='mydatabase'
         )
         
